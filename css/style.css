@@ -71,10 +71,6 @@ main, section {
   display: none;
 }
 
-.about_text {
-  overflow: auto;
-}
-
 /* Trude logo for phone screen */
 #home #logo-after-main {
   display: none;
@@ -85,6 +81,12 @@ main, section {
   #home {
     display: flex;
     flex-direction: column;
+  }
+  .about_text {
+    overflow: auto;
+  }
+  .card {
+    overflow: auto;
   }
   @media only screen and (min-height: 729px) {
     #home #logo-after-main {
