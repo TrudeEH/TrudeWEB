@@ -85,7 +85,7 @@ main, section {
   .about_text {
     overflow: auto;
   }
-  .card {
+  .card-text {
     overflow: auto;
   }
   @media only screen and (min-height: 729px) {
